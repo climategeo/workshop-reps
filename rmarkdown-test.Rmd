@@ -1,0 +1,54 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Header One
+
+Here is some explanation about what I am doing **Bold Text**
+
+Here is another explanation
+
+* apple
+* banana
+* kiwi
+
+$\sum{x^2}$
+
+```{r exercise_1 echo = FALSE}
+
+# comment
+x <- c(1, 13, -5)
+x
+
+```
+
+function_name(name1 = value1, name2 = value2)
+
+
+```{r}
+
+bg_chem <- read.csv(file = "data/BGchem2008data.csv")
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
