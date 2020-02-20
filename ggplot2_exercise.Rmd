@@ -59,7 +59,24 @@ head(annual_esc)
 
 ```
 
+# Data Visualization
 
+## first look at the data
+
+```{r}
+
+ggplot(annual_esc, aes(x = Species, y = escapement)) +
+  geom_col()
+
+```
+
+```{r}
+
+ggplot(annual_esc, aes(x = Species, y = escapement)) +
+  geom_col(fill = "blue")
+
+
+```
 
 
 
