@@ -1,0 +1,57 @@
+---
+title: "function"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+challenge1 <- function (argument1, argument2){
+  
+  argument1 * argument2 / 100
+
+}
+
+challenge1(10,3)
+
+```
+
+
+```{r}
+
+challenge2 <- function (argument1, argument2, argument3 = 100){
+  
+  argument1 * argument2 / argument3
+
+}
+
+challenge2(10,3)
+
+```
+
+
+```{r}
+
+challenge3 <- function (argument1, argument2, argument3 = 100){
+  
+  argument1 * argument2 / argument3
+
+}
+
+challenge3(10,3)
+
+```
+
+source my functions
+
+```{r}
+
+source("functions.R")
+
+```
+
+
